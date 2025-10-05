@@ -1,7 +1,7 @@
 -- Create Snowflake State
 CREATE STAGE netflixstage
   URL='s3://netflixdataset-chayuth'
-  CREDENTIALS=(AWS_KEY_ID='AKIAZN7GCHFHFSBTRXTJ' AWS_SECRET_KEY='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');
+  CREDENTIALS=(AWS_KEY_ID='' AWS_SECRET_KEY='');
 
 -- Set defaults
 USE WAREHOUSE COMPUTE_WH;
