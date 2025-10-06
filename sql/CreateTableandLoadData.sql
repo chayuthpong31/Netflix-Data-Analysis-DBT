@@ -1,6 +1,6 @@
 -- Create raw_movie table
 CREATE OR REPLACE TABLE raw_movies(
-    movidId INTEGER,
+    movieId INTEGER,
     title STRING,
     genres STRING
 )
