@@ -1,6 +1,6 @@
 SELECT
-    movid_id,
+    movie_id,
     tag_id,
     relevance_score
 FROM {{ ref('fct_genome_scores') }}
-WHERE relevance_score <= 3
+WHERE relevance_score <= 0
